@@ -30,7 +30,7 @@ import java.util.List;
  *      输入：candies = [12,1,12], extraCandies = 10
  *      输出：[true,false,true]
  */
-public class LeetCode1431 {
+public class LeetCode_1431 {
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies){
         int max=candies[0];
         for(int i=0;i<candies.length;i++){
@@ -53,6 +53,6 @@ public class LeetCode1431 {
     public static void main(String[] args){
         int[] candies = {2,3,5,1,3};
         int extraCandies = 3;
-        System.out.println(new LeetCode1431().kidsWithCandies(candies,extraCandies));
+        System.out.println(new LeetCode_1431().kidsWithCandies(candies,extraCandies));
     }
 }

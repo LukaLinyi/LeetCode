@@ -11,7 +11,7 @@ import java.util.HashMap;
  * @Modify:
  * @Description:
  */
-public class LeetCode1 {
+public class LeetCode_1 {
     public static void main(String[] args){
         int[] nums={2, 7, 11, 15};
         int target=9;

@@ -8,7 +8,7 @@ package com.linyi.leetcode.leetcode_1_500;
  * @Modify:
  * @Description:
  */
-public class LeetCode3 {
+public class LeetCode_3 {
 
     /**
      * @Description:

@@ -23,7 +23,7 @@ package com.linyi.leetcode.leetcode_1_500;
  *      其中，j是从左往右移动，k是从右往左移动，当nums[i]+nums[j]+nums[k]=target 或者 j=k-1时停止
  *
  */
-public class LeetCode16 {
+public class LeetCode_16 {
     public int threeSumClosest(int[] nums, int target){
         int closestSum=nums[0]+nums[1]+nums[2];
         int diffMin=Math.abs(target-closestSum);
@@ -59,7 +59,7 @@ public class LeetCode16 {
     public static void main(String[] args){
         int[] nums={128,1,2,4,64,8,16,32};
         int target=82;
-        //System.out.println(Arrays.toString(new LeetCode16().threeSumClosest(nums, target)));
-        System.out.println(new LeetCode16().threeSumClosest(nums,target));
+        //System.out.println(Arrays.toString(new LeetCode_16().threeSumClosest(nums, target)));
+        System.out.println(new LeetCode_16().threeSumClosest(nums,target));
     }
 }

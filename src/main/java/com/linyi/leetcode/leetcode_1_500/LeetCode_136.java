@@ -17,7 +17,7 @@ package com.linyi.leetcode.leetcode_1_500;
  *      输入: [4,1,2,1,2],输出: 4
  * @思路：利用自己和自己异或为零的原则
  */
-public class LeetCode136 {
+public class LeetCode_136 {
     public int singleNumber(int[] nums) {
         int singleNumber=nums[0];
         for(int i=1;i<nums.length;i++){
@@ -35,7 +35,7 @@ public class LeetCode136 {
 
     public static void main(String[] args){
         int[] nums={2,2,1};
-        System.out.println(new LeetCode136().singleNumber(nums));
-        System.out.println(new LeetCode136().singleNumberV2(nums));
+        System.out.println(new LeetCode_136().singleNumber(nums));
+        System.out.println(new LeetCode_136().singleNumberV2(nums));
     }
 }

@@ -8,7 +8,7 @@ package com.linyi.leetcode.leetcode_1_500;
  * @Modify:
  * @Description:
  */
-public class LeetCode2 {
+public class LeetCode_2 {
     class ListNode{
         int val;
         ListNode next;
@@ -29,7 +29,7 @@ public class LeetCode2 {
      *              原因：342 + 465 = 807
      * @Method: addTwoNumbers
      * @Params: [l1, l2]
-     * @Return: LeetCode2.ListNode
+     * @Return: LeetCode_2.ListNode
      * @Author: zhenglinyi
      * @Create: 下午10:39 2019/3/23
      * @Modify:

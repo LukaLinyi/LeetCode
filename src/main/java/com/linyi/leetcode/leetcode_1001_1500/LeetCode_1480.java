@@ -16,7 +16,7 @@ import java.util.Arrays;
  *      输出：[1,3,6,10]
  *      解释：动态和计算过程为 [1, 1+2, 1+2+3, 1+2+3+4]
  */
-public class LeetCode1480 {
+public class LeetCode_1480 {
     public int[] runningSum(int[] nums){
         int sum=0;
         for(int i=0;i<nums.length;i++){
@@ -28,6 +28,6 @@ public class LeetCode1480 {
 
     public static void main(String[] args){
         int[] nums={1,2,3,4};
-        System.out.println(Arrays.toString(new LeetCode1480().runningSum(nums)));
+        System.out.println(Arrays.toString(new LeetCode_1480().runningSum(nums)));
     }
 }

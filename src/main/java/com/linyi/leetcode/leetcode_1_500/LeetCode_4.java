@@ -8,7 +8,7 @@ package com.linyi.leetcode.leetcode_1_500;
  * @Modify:
  * @Description:
  */
-public class LeetCode4 {
+public class LeetCode_4 {
 
     /**
      * @Description:
@@ -97,6 +97,6 @@ public class LeetCode4 {
         int[] a={1,2};
         int[] b={3,4};
 
-        System.out.println(new LeetCode4().findMedianSortedArrays(a,b));
+        System.out.println(new LeetCode_4().findMedianSortedArrays(a,b));
     }
 }

@@ -17,7 +17,7 @@ package com.linyi.leetcode.leetcode_1001_1500;
  *      解释：数组 nums 为 [0, 2, 4, 6, 8]，其中 (0 ^ 2 ^ 4 ^ 6 ^ 8) = 8 。"^" 为按位异或 XOR 运算符。
  * @思路：
  */
-public class LeetCode1486 {
+public class LeetCode_1486 {
     public int xorOperation(int n, int start){
         int value=0;
         for(int i=0;i<n;i++){
@@ -27,6 +27,6 @@ public class LeetCode1486 {
     }
 
     public static void main(String[] args){
-        System.out.println(new LeetCode1486().xorOperation(5,0));
+        System.out.println(new LeetCode_1486().xorOperation(5,0));
     }
 }

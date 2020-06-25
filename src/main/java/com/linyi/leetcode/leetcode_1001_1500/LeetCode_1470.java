@@ -28,7 +28,7 @@ import java.util.Arrays;
  *       index=6的元素换位置，[1,4,2,3,3,4,2,1] =》 [1,4,2,3,3,2,4,1]
  * @思路2：空间换时间，效率更快
  */
-public class LeetCode1470 {
+public class LeetCode_1470 {
     public int[] shuffle(int[] nums, int n){
         int moveStart=n;//表示需要往前移动的元素(即y1，y2，y3 . . .yn-1)的下标，下标值[n,2n-2]
         int tmp=0;
@@ -56,9 +56,9 @@ public class LeetCode1470 {
     public static void main(String[] args){
         int[] nums={1,2,3,4,4,3,2,1};
         int n=4;
-        System.out.println(Arrays.toString(new LeetCode1470().shuffle(nums,n)));
+        System.out.println(Arrays.toString(new LeetCode_1470().shuffle(nums,n)));
         int[] newNums={1,2,3,4,4,3,2,1};
         int newN=4;
-        System.out.println(Arrays.toString(new LeetCode1470().shuffleV2(newNums,newN)));
+        System.out.println(Arrays.toString(new LeetCode_1470().shuffleV2(newNums,newN)));
     }
 }
