@@ -1,5 +1,7 @@
 package com.linyi.hdacm;
 
+import java.util.Scanner;
+
 /**
  * Created with IntelliJ IDEA.
  *
@@ -9,4 +11,10 @@ package com.linyi.hdacm;
  * @Description:
  */
 public class ACM_1000 {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        while(sc.hasNextInt()){
+            System.out.println(sc.nextInt()+sc.nextInt());
+        }
+    }
 }
